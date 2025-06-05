@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load model and vectorizer
-model = joblib.load(r"C:\Users\ADITI\projects\FakeandRealDetection\fake_news_model.pkl")
+model = joblib.load("fake_news_model.pkl")
 vectorizer = joblib.load(r"C:\Users\ADITI\projects\FakeandRealDetection\vectorizer.pkl")
 
 # Streamlit UI
