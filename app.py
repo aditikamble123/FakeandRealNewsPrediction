@@ -3,7 +3,7 @@ import joblib
 
 # Load model and vectorizer
 model = joblib.load("fake_news_model.pkl")
-vectorizer = joblib.load(r"C:\Users\ADITI\projects\FakeandRealDetection\vectorizer.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
 
 # Streamlit UI
 st.set_page_config(page_title="Fake News Detector", layout="centered")
